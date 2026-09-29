@@ -1,0 +1,16 @@
+//Create a list of student names:
+//Ask the user to enter a student name.
+//If the name exists, display:
+//Student Found Otherwise: Student Not Found
+
+students = ["Ali", "Ahmed", "Sara", "Ayesha", "Bilal"]
+name = input("Enter a name:")
+
+for student in students:
+  if name == student:
+    print("student found")
+    break;
+else:
+  print("not found")
+    
+    
